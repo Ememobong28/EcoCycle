@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/immanuellaumoren/Project/EcoCycle/ecocycle-app/src",
+      "program": "/Users/immanuellaumoren/Project/EcoCycle/ecocycle-app/src/build/Debug/outDebug"
+    }
+  ]
+}

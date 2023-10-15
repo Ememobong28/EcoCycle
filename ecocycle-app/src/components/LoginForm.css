@@ -1,0 +1,86 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 300px;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+button.login-button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button.login-button:hover {
+    background-color: #2E7D32;
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.eye-icon.visible::before {
+    content: '\1F441';
+    /* Unicode for an open eye */
+    font-size: 18px;
+}
+
+.eye-icon::before {
+    content: '\1F576';
+    /* Unicode for a closed eye */
+    font-size: 18px;
+}
