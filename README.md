@@ -52,7 +52,8 @@ With its accessibility across various devices and platforms, the website ensures
 ###Tech Stack
 MongoDB Atlas for Database Login/SignUp Auth
 
-<img width="1440" alt="Screenshot 2023-10-14 at 11 33 26 PM" src="https://github.com/Ememobong28/EcoCycle/assets/84681087/4610a4a2-179e-4cdd-916b-75a425c69284">
+<img width="1440" alt="Screenshot 2023-10-15 at 12 18 58 AM" src="https://github.com/Ememobong28/EcoCycle/assets/84681087/9338976e-84bf-40be-a191-34a160e085a0">
+
 
 Ecocycle Website
 
