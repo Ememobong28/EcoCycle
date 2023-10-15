@@ -49,6 +49,17 @@ The website highlights partnerships, fostering credibility and trust while attra
 ### Cross-Platform Accessibility
 With its accessibility across various devices and platforms, the website ensures that the EcoCycle message reaches a broader demographic.
 
+###Tech Stack
+MongoDB Atlas for Database Login/SignUp Auth
+
+<img width="1440" alt="Screenshot 2023-10-14 at 11 33 26 PM" src="https://github.com/Ememobong28/EcoCycle/assets/84681087/4610a4a2-179e-4cdd-916b-75a425c69284">
+
+Ecocycle Website
+
+<img width="1440" alt="Screenshot 2023-10-15 at 12 17 11 AM" src="https://github.com/Ememobong28/EcoCycle/assets/84681087/21643a62-2441-45c1-9b82-3a2e2d91a32d">
+
+
+
 By combining the strengths of the mobile app and the website, EcoCycle offers a comprehensive and inclusive approach to promoting recycling, environmental responsibility, and sustainability. It's an inspiring project that aims to make the world cleaner and safer, one recycled item at a time.
 
 *Remember, sustainability begins with small actions, and EcoCycle is here to inspire those actions!*
