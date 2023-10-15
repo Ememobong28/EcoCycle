@@ -11,7 +11,6 @@ const RegistrationForm = () => {
 
   const handleRegistration = async () => {
     if (password !== confirmPassword) {
-      // Passwords don't match, handle error
       return;
     }
 

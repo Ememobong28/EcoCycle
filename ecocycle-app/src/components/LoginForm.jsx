@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import Confetti from 'react-confetti';
 import { useNavigate } from 'react-router-dom';
 
-import './LoginForm.css'; // Import the CSS file
+import './LoginForm.css';
 
 const LoginForm = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [showPassword, setShowPassword] = useState(false); // State to toggle password visibility
+    const [showPassword, setShowPassword] = useState(false);
     const [showConfetti, setShowConfetti] = useState(false);
 
-    const navigate = useNavigate(); // Hook for navigation
+    const navigate = useNavigate();
 
     const handleLogin = async () => {
         const response = await fetch('http://localhost:3000/login', {
@@ -24,7 +24,6 @@ const LoginForm = () => {
             console.log('Login successful');
             setShowConfetti(true);
 
-            // Delay navigation to the home page after 3 seconds
             setTimeout(() => {
                 setShowConfetti(false);
                 navigate('/');
@@ -34,7 +33,6 @@ const LoginForm = () => {
         }
     };
 
-    // Function to toggle password visibility
     const togglePasswordVisibility = () => {
         setShowPassword(!showPassword);
     };

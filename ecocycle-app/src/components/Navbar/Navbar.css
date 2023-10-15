@@ -1,4 +1,3 @@
-/* Navbar.css */
 .navbar {
     background-color: #4CAF50;
     padding: 10px 0;
@@ -12,19 +11,14 @@
 
 .logo-text {
     color: #fff;
-    /* White text color */
     font-size: 24px;
     margin-left: 20px;
-    /* Add some left margin to the logo for spacing */
 }
 
 .logo-image {
     width: 40px;
-    /* Set the width of the logo image as needed */
     height: auto;
-    /* Maintain the aspect ratio */
     margin-right: 10px;
-    /* Add right margin for spacing */
 }
 
 .nav-links {
@@ -33,18 +27,15 @@
     display: flex;
     gap: 20px;
     margin-right: 20px;
-    /* Add right margin to push links to the right end */
 }
 
 .nav-link {
     text-decoration: none;
     color: #fff;
-    /* White text color */
     font-size: 18px;
     transition: color 0.3s;
 }
 
 .nav-link:hover {
     color: #2E7D32;
-    /* Darker green color on hover */
 }
